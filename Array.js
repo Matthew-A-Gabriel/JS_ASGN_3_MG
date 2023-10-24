@@ -33,39 +33,33 @@
 // There is an error in your code
 // You did not use Git when uploading your code to GitHub
 
-// 
-
+// Array
 const array_stuff = ["item1","item2","item3",]
 
-console.log(array_stuff)
+// Does functions and logs in console
+console.log("LOG : " + array_stuff)
 pushed("item4")
-console.log(array_stuff)
+console.log("LOG : " + array_stuff)
 poped()
-console.log(array_stuff)
+console.log("LOG : " + array_stuff)
 
-console.log(array_stuff)
+console.log("LOG : " + array_stuff)
 
-console.log(array_stuff)
+console.log("LOG : " + array_stuff)
 
-console.log(array_stuff)
+console.log("LOG : " + array_stuff)
 
 
-
+// add Item4
 function pushed (item4) {
-
     array_stuff[array_stuff.length] = item4;
-
 }
 
-// 
+// remove last 2 items
 function poped (removeItem) {
-
     for (var i = 0;  i<2; i++) {
-    
         array_stuff.length = array_stuff.length - 1
-
     }
-
 }
 
 // 
