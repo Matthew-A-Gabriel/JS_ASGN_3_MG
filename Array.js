@@ -23,14 +23,14 @@ function pushed (item4) {
     array_stuff[array_stuff.length] = item4;
 }
 
-// remove last 2 items
+// remove last 1 items
 function poped (removeItem) {
     for (var i = 0;  i<1; i++) {
         array_stuff.length = array_stuff.length - 1
     }
 }
 
-// toString but it's manual... we grab the values of array_stuff, and put them 
+// toString but it's manual... array values, stored here
 function toStringed () {
     var divider = ""
     for (var i = 0; i < array_stuff.length; i++) {
